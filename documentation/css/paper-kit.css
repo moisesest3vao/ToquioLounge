@@ -2646,7 +2646,7 @@ textarea.form-control {
 }
 
 .card-register {
-  background-color: #FF8F5E;
+  background-color: #00ffd0;
   border-radius: 8px;
   color: #fff;
   max-width: 350px;
@@ -2668,7 +2668,7 @@ textarea.form-control {
 }
 
 .card-register .title {
-  color: #B33C12;
+  color: #00ffd0;
   text-align: center;
 }
 
@@ -2728,7 +2728,7 @@ textarea.form-control {
 }
 
 .footer .heart {
-  color: #EB5E28;
+  color: #00ffd0;
 }
 
 .footer {
