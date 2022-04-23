@@ -9,11 +9,15 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "engines": {
+    "node": "14.15.1",
+    "npm": "6.14.8"
   },
   "dependencies": {
     "@angular/animations": "11.0.4",
@@ -29,6 +33,7 @@
     "@ng-bootstrap/ng-bootstrap": "6.0.0",
     "bootstrap": "4.5.3",
     "core-js": "3.8.1",
+    "express": "^4.17.3",
     "jquery": "3.5.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "ng2-nouislider": "1.8.2",
