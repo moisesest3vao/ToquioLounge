@@ -6,6 +6,8 @@ import { NouisliderModule } from 'ng2-nouislider';
 import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
 import { RouterModule } from '@angular/router';
 import { ComponentsComponent } from './components.component';
+import { CardapioComponent } from './cardapio/cardapio/cardapio.component';
+import { EventosComponent } from './eventos/eventos/eventos.component';
 @NgModule({
     imports: [
         CommonModule,
@@ -17,6 +19,8 @@ import { ComponentsComponent } from './components.component';
     ],
     declarations: [
         ComponentsComponent,
+        CardapioComponent,
+        EventosComponent,
     ],
     exports:[ ComponentsComponent ]
 })
