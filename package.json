@@ -34,6 +34,7 @@
     "bootstrap": "4.5.3",
     "core-js": "3.8.1",
     "express": "^4.17.3",
+    "heroku": "^7.60.1",
     "jquery": "3.5.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "ng2-nouislider": "1.8.2",
