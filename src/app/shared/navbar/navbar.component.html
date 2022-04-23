@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
-        <div class="navbar-translate">
-            <a><img href="#sobre" class="ml-1"style="width: 60px;height: 40px;" src="assets/img/toquio_lounge_logo.jpg"></a>
+        <div  class="navbar-translate">
+            <a href="#home"><img class="ml-1"style="width: 60px;height: 40px;" src="assets/img/toquio_lounge_logo.jpg"></a>
             <a href="#eventos" class="navbar-brand">Eventos</a>
             <a href="#sobre" class="navbar-brand">Sobre nós</a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
@@ -13,19 +13,13 @@
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/toquiotabacaria" target="_blank">
-                        <i class="fa fa-facebook-square"></i>
-                        <p class="d-lg-none">Facebook</p>
-                    </a>
-                </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
                     <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/toquiolounge/" target="_blank">
                         <i class="fa fa-instagram"></i>
                         <p class="d-lg-none">Instagram</p>
                     </a>
                 </li>
                 <li color="white" class="nav-item" *ngIf="isHome()">
-                    <a href="https://api.whatsapp.com/message/IRV4HZ3JTC4EO1?autoload=1&app_absent=0" class="btn btn-success btn-round">
+                    <a href="wa.me/message/IRV4HZ3JTC4EO1" class="btn btn-success btn-round">
                         <span class="material-icons">whatsapp</span>
                         <a class="text-dark" style="pointer-events: none" class="d-lg-none">WhatsApp</a>
                     </a>
