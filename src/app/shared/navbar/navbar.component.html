@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div  class="navbar-translate">
-            <a [routerLink]="'/home'"><img class="ml-1"style="width: 60px;height: 40px;" src="assets/img/toquio_lounge_logo.jpg"></a>
+            <a [routerLink]="'/home'"><img class="ml-2"style="width: 60px;height: 40px;" src="assets/img/toquio_lounge_logo.jpg"></a>
             <a [routerLink]="'/eventos'" class="navbar-brand">Eventos</a>
             <a [routerLink]="'/cardapio'" class="navbar-brand">Cardápio</a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
@@ -23,13 +23,6 @@
                         <span class="material-icons">whatsapp</span>
                         <a class="text-dark" style="pointer-events: none" class="d-lg-none">WhatsApp</a>
                     </a>
-                </li>
-                <li class="nav-item" *ngIf="!isHome()">
-                    <a [routerLink]="['/home']" *ngIf="!isDocumentation()" class="nav-link"><i class="nc-icon nc-layout-11"></i>Components</a>
-                    <a [routerLink]="['/home']" *ngIf="isDocumentation()" class="nav-link">Back to Kit</a>
-                </li>
-                <li class="nav-item" *ngIf="isDocumentation()">
-                    <a href="https://github.com/creativetimofficial/paper-kit-2-angular/issues?ref=pk2-free-local" target="_blank" class="nav-link">Have an issue</a>
                 </li>
             </ul>
         </div>
